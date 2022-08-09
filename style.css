@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  body{
+    background-image: url(https://c0.wallpaperflare.com/preview/817/836/855/interior-tech-technology-coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color:#ffedd5;  /*hex 0 - f */
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  ul{
+  list-style:none;
+  }
+  /* Fonts */
+  
+  h1,h2,h3, .price{
+    font-family: 'Roboto serif', serif;
+    text-transform: uppercase;
+  }
+  .menu{
+    height: 30px;
+    max-width:100%;
+    background-color:#2e1802;
+  
+  }
+  .menu h1{
+    font-family:'Roboto serif', serif;
+    font-size: 20px;
+    color: #fed7aa;
+    
+  }
+  header{
+    background-color:#ffedd5;
+    padding: 32px 0;
+    text-align:center;
+    margin-top: 10px;
+    }
+  
+  header,
+  section{
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  header h1{
+    margin-bottom:4px;
+    font-size:28px;
+    line-height: 33px;
+  }
+  header h1 span{
+    color:#995000;
+  }
+  header p{
+    font-size:14px;
+    line-height: 16px;
+    color: rgba(0,0,0,0.7);
+    }
+  
+  section h2{
+    background-color:#fed7aa;
+    padding:8px 16px;
+    text-align:center;
+    font-size:18px;
+  }
+  ul li{
+    background-color:#ffedd5;
+    display:flex;
+    border:0px;
+  }
+  li .details{
+    max-width: 240px;
+  }
+  .details h3{
+    margin-bottom:8px;
+    padding: 2px;
+    font-size:16px;
+    line-height: 19px;
+  }
+  .details p{
+    color: rgba(0,0,0,0.6);
+    font-size:14px;
+    padding:2px;
+    margin-bottom:10px;
+    line-height: 21px;
+  }
+  
+  
+  
